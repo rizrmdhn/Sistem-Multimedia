@@ -64,9 +64,8 @@ function lepasMouse(e:MouseEvent):void
     if (jarak1 < 100 || jarak2 < 100 || jarak3 < 100)
     {
         // need to fix this
-        if ((ob.currentFrame < 3 && jarak3 < 100) ||
-            (ob.currentFrame > 4 && ob.currentFrame < 7 && jarak1 < 100) ||
-            (ob.currentFrame > 7 && jarak2 < 100))
+        if ((ob.currentFrame < 3 && jarak1 < 100) || (ob.currentFrame > 4 &&
+jarak2 < 100))
         {
             nilaiBenar++;
         }
