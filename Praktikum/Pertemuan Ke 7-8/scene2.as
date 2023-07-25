@@ -170,3 +170,4 @@ stage.addEventListener(MouseEvent.MOUSE_UP, lepasMouse);
 
 
 setup();
+stop();
